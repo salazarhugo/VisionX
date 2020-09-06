@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cameraFragment">
+
+    <fragment
+        android:id="@+id/imageLabelingFragment"
+        android:name="com.brock.visionx.ui.imagelabeling.ImageLabelingFragment"
+        android:label="image_labeling_fragment"
+        tools:layout="@layout/image_labeling_fragment" >
+        <argument
+            android:name="result"
+            app:argType="string"
+            android:defaultValue="empty" />
+        <argument
+            android:name="image_path"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.brock.visionx.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.brock.visionx.ui.camera.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/camera_fragment">
+        <action
+            android:id="@+id/action_cameraFragment_to_imageLabelingFragment"
+            app:destination="@id/imageLabelingFragment" />
+    </fragment>
+</navigation>

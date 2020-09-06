@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "640196876447",
+    "firebase_url": "https://avian-volt-288418.firebaseio.com",
+    "project_id": "avian-volt-288418",
+    "storage_bucket": "avian-volt-288418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640196876447:android:3bdf088c79ccc79370aaaa",
+        "android_client_info": {
+          "package_name": "com.brock.visionx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640196876447-7s324fc6ieguvpvrqhieilg0jvnbu9o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnRaPwuw6_F0D9GfoJkWGkoPO6rbos2io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640196876447-7s324fc6ieguvpvrqhieilg0jvnbu9o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
